@@ -43,13 +43,13 @@ header > h1 {
 header > nav {
     display: flex;
     flex-direction: column;
-    background-color: gray;
     text-align: center;
 }
 
 header > nav > a {
     padding: 10px;
     border: 2px solid lightgray;
+    background-color: gray;
     color: white;
     text-decoration: none;
     border-radius: 5px;
