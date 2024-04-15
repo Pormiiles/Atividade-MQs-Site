@@ -16,6 +16,20 @@ header {
     background-color: rgb(85, 85, 85);
 }
 
+#burger {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
 header > h1 {
     text-align: center;
     padding: 10px;
