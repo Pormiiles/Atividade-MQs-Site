@@ -36,6 +36,10 @@ header > h1 {
     color: white;
 }
 
+.menu-nav {
+    display: none;
+}
+
 header > nav {
     display: flex;
     flex-direction: column;

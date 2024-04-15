@@ -10,8 +10,8 @@
 <body>  
     <header>
         <h1>Meu site</h1>
-        <span class="material-symbols-outlined" id="burger">menu</span>
-        <nav>
+        <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
+        <nav class="menu-nav" id="itens">
             <a href="">Opção 1</a>
             <a href="">Opção 2</a>
             <a href="">Opção 3</a>
@@ -35,5 +35,15 @@
     <footer>
         <p>Criado por Pormiiles.</p>
     </footer>
+
+    <script>
+        function clickMenu() {
+            if(itens.style.display == 'flex') {
+                itens.style.display = 'none';
+            } else {
+                itens.style.display = 'flex';
+            }
+        }
+    </script>
 </body>
 </html>
