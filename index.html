@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos/media-queries.css">
     <title>Meu site</title>
 </head>
-<body>  
+<body onresize="mudouTamanho()">  
     <header>
         <h1>Meu site</h1>
         <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">menu</span>
@@ -38,6 +38,14 @@
     </footer>
 
     <script>
+        function mudouTamanho() {
+            if(window.innerWidth >= 768) {
+                itens.style.display = 'flex';
+            } else {
+                itens.style.display = 'none';
+            }
+        }
+
         function clickMenu() {
             if(itens.style.display == 'flex') {
                 itens.style.display = 'none';
